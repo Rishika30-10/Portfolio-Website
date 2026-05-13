@@ -1,0 +1,50 @@
+/* ============================================
+   skills.css — Skills Section
+   ============================================ */
+
+#skills {
+  background: var(--cream);
+}
+
+.skill-category {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2rem;
+  height: 100%;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.skill-category:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card);
+}
+
+.skill-category-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.2rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  color: var(--dark);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.85rem;
+  border-radius: 2px;
+  margin: 0.25rem;
+  transition: all 0.25s;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: var(--dark);
+  color: var(--cream);
+  border-color: var(--dark);
+}

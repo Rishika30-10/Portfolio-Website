@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishika Poddar | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/navbar.css"/>
+  <link rel="stylesheet" href="css/hero.css"/>
+  <link rel="stylesheet" href="css/about.css"/>
+  <link rel="stylesheet" href="css/skills.css"/>
+  <link rel="stylesheet" href="css/projects.css"/>
+  <link rel="stylesheet" href="css/education.css"/>
+  <link rel="stylesheet" href="css/certifications.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">R<span>.</span>Poddar</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="fas fa-bars" style="color:var(--dark)"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-circle c1"></div>
+    <div class="hero-bg-circle c2"></div>
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <div class="hero-eyebrow">CS Student &amp; Developer</div>
+          <h1 class="hero-name">Rishika<br/><span>Poddar</span></h1>
+          <div class="hero-title">Quick Learner · Problem Solver</div>
+          <p class="hero-desc">A proactive builder who crafts efficient systems through analytical thinking and collaborative leadership — eager to drive impact from day one.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary-custom">View Projects</a>
+            <a href="#contact" class="btn-outline-custom">Get in Touch</a>
+          </div>
+          <div class="hero-stat-row">
+            <div class="hero-stat">
+              <strong>9.21</strong>
+              <span>CGPA</span>
+            </div>
+            <div class="hero-stat">
+              <strong>3+</strong>
+              <span>Projects</span>
+            </div>
+            <div class="hero-stat">
+              <strong>3</strong>
+              <span>Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 hero-image-col">
+          <div class="hero-avatar-wrap">
+            <div class="hero-avatar-bg"></div>
+            <div class="hero-avatar-inner">
+              <div class="hero-initials">RP</div>
+            </div>
+            <div class="floating-badge badge-cgpa"><i class="fas fa-star me-1"></i>CGPA 9.21</div>
+            <div class="floating-badge badge-java"><i class="fab fa-java me-1"></i>Java · DSA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row gy-5 align-items-start">
+        <div class="col-lg-5">
+          <div class="section-label reveal">About Me</div>
+          <h2 class="section-title reveal reveal-delay-1">Building solutions,<br/>one line at a time.</h2>
+          <div class="section-divider reveal reveal-delay-2"></div>
+          <p class="reveal reveal-delay-2">
+            I'm a Computer Science student at C.V. Raman Global University, passionate about creating meaningful technology. From web platforms to Java-based systems, I enjoy turning complex problems into clean, scalable solutions.
+          </p>
+          <p class="mt-3 reveal reveal-delay-3">
+            I thrive in fast-paced environments, quickly mastering new technologies. With a background in data analytics, cybersecurity, and full-stack development, I'm always exploring where code meets real-world impact.
+          </p>
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <div class="col-sm-6 reveal reveal-delay-1">
+              <div class="about-highlight-card">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h6>Frontend Dev</h6>
+                <p>HTML, CSS, JS, Bootstrap — building responsive, accessible interfaces.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-2">
+              <div class="about-highlight-card">
+                <div class="icon"><i class="fab fa-java"></i></div>
+                <h6>Java &amp; DSA</h6>
+                <p>Object-oriented design, data structures, algorithms, and priority queues.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-3">
+              <div class="about-highlight-card">
+                <div class="icon"><i class="fas fa-database"></i></div>
+                <h6>Databases</h6>
+                <p>Oracle DB and MySQL — schema design, queries, and data management.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-4">
+              <div class="about-highlight-card">
+                <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                <h6>Cybersecurity</h6>
+                <p>Network security fundamentals, threat prevention, and attack mitigation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">What I Know</div>
+      <h2 class="section-title reveal reveal-delay-1">Skills &amp; Technologies</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal reveal-delay-1">
+          <div class="skill-category">
+            <div class="skill-category-title">Programming Languages</div>
+            <div>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-2">
+          <div class="skill-category">
+            <div class="skill-category-title">Frontend Development</div>
+            <div>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-3">
+          <div class="skill-category">
+            <div class="skill-category-title">Database Management</div>
+            <div>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Oracle DB</span>
+              <span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-1">
+          <div class="skill-category">
+            <div class="skill-category-title">Operating Systems</div>
+            <div>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Windows</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-2">
+          <div class="skill-category">
+            <div class="skill-category-title">Core CS Concepts</div>
+            <div>
+              <span class="skill-tag">Data Structures and Algorithms</span>
+              <span class="skill-tag">Object Oriented Programming</span>
+              <span class="skill-tag">DBMS</span>
+              <span class="skill-tag">Operating Systems</span>
+              <span class="skill-tag">Computer Networking</span>
+              <span class="skill-tag">Computer Organization</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-3">
+          <div class="skill-category">
+            <div class="skill-category-title">Soft Skills</div>
+            <div>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Team Player</span>
+              <span class="skill-tag">Communicator</span>
+              <span class="skill-tag">Hard Worker</span>
+              <span class="skill-tag">Cross-functional Collaboration</span>
+              <span class="skill-tag">Adaptable</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">What I've Built</div>
+      <h2 class="section-title reveal reveal-delay-1">Projects</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-1">
+          <div class="project-card">
+            <div class="project-num">01</div>
+            <h4>Crowdsourced Problem-Solving Platform</h4>
+            <p>A responsive web platform (MindSumo-like) where companies post problem statements and users submit solutions. Features secure authentication, admin dashboard, and role-based workflows.</p>
+            <div>
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-2">
+          <div class="project-card">
+            <div class="project-num">02</div>
+            <h4>Emergency Room Queue Simulator</h4>
+            <p>Java-based ER management system using a custom Min-Heap Priority Queue for patient triage. Features greedy doctor assignment with specialization-based matching and SLA breach escalation.</p>
+            <div>
+              <span class="project-tag">Java</span>
+              <span class="project-tag">DSA</span>
+              <span class="project-tag">Min-Heap</span>
+              <span class="project-tag">Greedy</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-3">
+          <div class="project-card">
+            <div class="project-num">03</div>
+            <h4>Topic Detection via Keyword Clustering</h4>
+            <p>A topic detection system using TF-IDF and K-Means clustering to group large text datasets into meaningful topics. Applied tokenization, stop-word removal, and stemming with coherence metrics.</p>
+            <div>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">TF-IDF</span>
+              <span class="project-tag">K-Means</span>
+              <span class="project-tag">NLP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label reveal">Academic Journey</div>
+      <h2 class="section-title reveal reveal-delay-1">Education</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+      <div class="row g-4">
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="edu-card">
+            <div class="edu-year">Aug 2023 – May 2027</div>
+            <h5>B.Tech — Computer Science &amp; Engineering</h5>
+            <div class="institution">C.V. Raman Global University, Bhubaneswar</div>
+            <span class="edu-grade">CGPA: 9.21 / 10</span>
+            <p class="mt-3 edu-coursework">
+              Relevant: Data Structures, Algorithms, OS, DBMS, Computer Networking, OOP, Data Mining
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 reveal reveal-delay-2">
+          <div class="edu-card">
+            <div class="edu-year">Apr 2021 – May 2023</div>
+            <h5>12th — ISC</h5>
+            <div class="institution">Tagore Academy<br/>(PCM + Computer Applications)</div>
+            <span class="edu-grade">89.6%</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 reveal reveal-delay-3">
+          <div class="edu-card">
+            <div class="edu-year">2021</div>
+            <h5>10th — ICSE</h5>
+            <div class="institution">Tagore Academy</div>
+            <span class="edu-grade">89.4%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-label reveal">Credentials</div>
+      <h2 class="section-title reveal reveal-delay-1">Certifications</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-1">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+            <div>
+              <h6>Palo Alto Networks Cybersecurity</h6>
+              <p>Network security fundamentals, threat prevention techniques, and modern cybersecurity practices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-2">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fab fa-ibm"></i></div>
+            <div>
+              <h6>Cybersecurity Tools &amp; Cyberattacks — IBM</h6>
+              <p>Foundational cybersecurity concepts, common attack types, and tools for threat detection and prevention.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-3">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fab fa-google"></i></div>
+            <div>
+              <h6>Google Data Analytics Professional</h6>
+              <p>Data cleaning, analysis, visualization, and data-driven decision-making using real-world datasets.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">Let's Connect</div>
+      <h2 class="section-title reveal reveal-delay-1">Get In Touch</h2>
+      <div class="section-divider reveal reveal-delay-2" style="margin:0 auto 2rem;"></div>
+      <p class="reveal reveal-delay-2">Open to internships, collaborations, and exciting projects. Feel free to reach out — I'd love to hear from you!</p>
+      <div class="contact-links reveal reveal-delay-3">
+        <a href="mailto:rishikapoddar03@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i> rishikapoddar03@gmail.com
+        </a>
+        <a href="tel:+918252121544" class="contact-link">
+          <i class="fas fa-phone"></i> +91 82521 21544
+        </a>
+        <a href="https://linkedin.com/in/rishika-poddar3" target="_blank" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Rishika30-10" target="_blank" class="contact-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <p class="contact-location reveal reveal-delay-4">Based in Bhubaneswar, Odisha, India</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Rishika Poddar · Designed &amp; Built with ♥</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="js/cursor.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/reveal.js"></script>
+  <script src="js/backtop.js"></script>
+</body>
+</html>

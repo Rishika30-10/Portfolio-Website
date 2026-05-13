@@ -1,0 +1,63 @@
+/* ============================================
+   contact.css — Contact Section
+   ============================================ */
+
+#contact {
+  background: linear-gradient(135deg, var(--dark) 0%, #2D1B4E 100%);
+  text-align: center;
+}
+
+#contact .section-title {
+  color: var(--cream);
+}
+
+#contact .section-label {
+  color: var(--accent);
+}
+
+#contact > .container > p {
+  color: rgba(245, 240, 232, 0.65);
+  max-width: 500px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--cream);
+  text-decoration: none;
+  padding: 0.75rem 1.4rem;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition-base);
+}
+
+.contact-link:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.contact-link i {
+  font-size: 1rem;
+}
+
+.contact-location {
+  font-size: 0.8rem;
+  color: rgba(245, 240, 232, 0.3);
+  margin-top: 1rem;
+}

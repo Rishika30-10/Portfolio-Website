@@ -1,0 +1,82 @@
+/* ============================================
+   projects.css — Projects Section
+   ============================================ */
+
+#projects {
+  background: #F0EBE0;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2.5rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Left accent bar on hover */
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--accent), var(--accent2));
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.35s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.project-card:hover::before {
+  transform: scaleY(1);
+}
+
+.project-num {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--border);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  transition: color var(--transition-base);
+}
+
+.project-card:hover .project-num {
+  color: rgba(200, 150, 90, 0.2);
+}
+
+.project-card h4 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.8rem;
+}
+
+.project-card p {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.project-tag {
+  display: inline-block;
+  background: var(--cream);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.65rem;
+  border-radius: 2px;
+  color: var(--accent2);
+  margin: 0.15rem;
+}
